@@ -1,0 +1,54 @@
+body{
+    background-color: aquamarine;
+}
+
+button{
+    background-color: red;
+    color: yellow;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: font-size 2s;
+}
+
+button:hover{
+    background-color: yellow;
+    color: red;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+a{
+    font-size: 50px;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: red;
+}
+
+a:link{
+    color:hotpink
+}
+
+/*  when you have clicked on the link , but not left the cursor yet */
+a:active{
+    color: lawngreen;
+}
+
+/* div:nth-child(2n){
+    color: red;
+} */
+div{
+    font-size: 30px;
+}
+
+.element > span{
+    color: red;
+}
